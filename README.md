@@ -716,6 +716,7 @@ $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
 
+
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -734,6 +735,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+![WhatsApp Image 2025-08-22 at 16 29 27_8392b87c](https://github.com/user-attachments/assets/b97842f8-731a-4c70-8515-c3d95c9f40ef)
+
  
 cat > whiletest
 ```bash
@@ -749,6 +752,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+![WhatsApp Image 2025-08-22 at 16 29 26_74475173](https://github.com/user-attachments/assets/00266e9f-2dd3-43bc-b2ba-bc1a4f0ab08f)
+
  
  
 cat untiltest.sh 
@@ -762,6 +767,8 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+![WhatsApp Image 2025-08-22 at 16 29 25_4d901ee7](https://github.com/user-attachments/assets/a5f7fbbd-970b-41fb-a6ee-fe26199362f1)
+
  
  
  
@@ -776,6 +783,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
+![WhatsApp Image 2025-08-22 at 16 29 24_b84a76cb](https://github.com/user-attachments/assets/adbaaf2c-2cdb-4b22-ba5c-75677136c8d4)
+
  
  
 cat forin2.sh 
@@ -801,7 +810,9 @@ done
 ```
 $ chmod 755 forin2.sh
  
-$ ./forin2.sh 
+$ ./forin2.sh
+![WhatsApp Image 2025-08-22 at 16 29 23_115bce0d](https://github.com/user-attachments/assets/321e380f-9e18-4501-8cdb-61705781cdd4)
+
  
 cat forin3.sh 
 ```bash
@@ -813,8 +824,10 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
-cat forin1.sh 
+![WhatsApp Image 2025-08-22 at 16 29 23_55fb3120](https://github.com/user-attachments/assets/f189eee9-084a-4b31-934d-0eda24165458)
+
+
+cat forin3.sh 
 ```bash
 #!/bin/bash
 # basic for command
@@ -823,9 +836,10 @@ do
 echo The next state is $test
 done
 ```
-$ chmod 755 forin1.sh
+$ chmod 755 forin3.sh
 
 ## OUTPUT
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -861,6 +875,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 22_dbe1e202](https://github.com/user-attachments/assets/07ddbd07-6eb4-47e4-98e2-2638d1bd15b3)
+
 
 cat forctype1.sh 
 ```bash
@@ -874,6 +890,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 19_c6856f8e](https://github.com/user-attachments/assets/d9fc4b77-4ba4-4320-aad4-caaa7a4fe559)
+
 
 cat fornested1.sh 
 ```bash
@@ -892,6 +910,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 16_c277fa90](https://github.com/user-attachments/assets/d59f8472-3353-4716-8a8a-0307430ced08)
 
  
 cat forbreak.sh 
@@ -913,6 +932,8 @@ echo "The for loop is completed“
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+![WhatsApp Image 2025-08-22 at 16 29 15_04580913](https://github.com/user-attachments/assets/74b2d98b-cb6a-43d4-a2d9-416106178252)
+
  
 cat forbreak.sh 
 ```bash
@@ -934,6 +955,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 14_55d62ee8](https://github.com/user-attachments/assets/1f780362-1011-4d9b-9581-63c1bb5cf54d)
+
  
 cat exread.sh 
 ```bash
@@ -948,6 +971,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 12_f7429422](https://github.com/user-attachments/assets/2d130d26-af88-476e-9a09-89839f993391)
 
 
  cat exread1.sh
@@ -960,6 +984,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 11_5f5ff99b](https://github.com/user-attachments/assets/56b9f902-80e0-4c3c-bd2e-000140357809)
 
 
 
@@ -999,6 +1024,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+![WhatsApp Image 2025-08-22 at 16 29 00_b143a1ba](https://github.com/user-attachments/assets/ebebde04-8aed-44eb-b9e2-0af71e0d8eaf)
+
  
  cat argshift1.sh
 ```bash
@@ -1016,6 +1043,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+![WhatsApp Image 2025-08-22 at 16 28 58_222eb4e2](https://github.com/user-attachments/assets/31c79d7c-c520-4ae5-87e4-c1c59416c5c5)
+
  
 cat argshift.sh
 ```bash
@@ -1029,7 +1058,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ![WhatsApp Image 2025-08-22 at 16 28 57_f4e6b8c6](https://github.com/user-attachments/assets/7ab2ee42-7463-4bda-9447-ad6c9a6357f4)
+
  
 cat > nc.awk
 ```bash
@@ -1060,6 +1090,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![WhatsApp Image 2025-08-22 at 16 28 56_7510a7ef](https://github.com/user-attachments/assets/c5fe83c3-ea7c-4542-981a-f7a14556b35a)
+
  
 cat > palindrome.sh
 ```bash
@@ -1087,6 +1119,7 @@ else
 fi
 ```
 ## OUTPUT 
+![WhatsApp Image 2025-08-22 at 16 28 53_8b93a2e0](https://github.com/user-attachments/assets/8a08408a-f685-4900-bca1-3da9d8d4b1ec)
 
 
 # RESULT:
