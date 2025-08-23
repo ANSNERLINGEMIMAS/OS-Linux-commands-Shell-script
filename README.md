@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![WhatsApp Image 2025-08-22 at 16 29 49_f1d94a6b](https://github.com/user-attachments/assets/24c68d55-979e-46b1-a52c-300fea42f4ad)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -47,12 +47,14 @@ cat < file1
 
 cat < file2
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 20_912384da](https://github.com/user-attachments/assets/26ae4355-d2f1-4315-9a86-49f6c9c469c7)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![WhatsApp Image 2025-08-22 at 16 30 22_4104e7d7](https://github.com/user-attachments/assets/d10628ec-7895-444f-9916-9f8f5c17a602)
+
 comm file1 file2
  ## OUTPUT
 
@@ -82,17 +84,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 21_98583ea1](https://github.com/user-attachments/assets/1187085e-0eb9-4455-8a28-ad28fef591d4)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 18_33bb04d7](https://github.com/user-attachments/assets/650a7509-590c-4805-a0ce-0d09d2df4771)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 17_1ec2117b](https://github.com/user-attachments/assets/c027e408-bedb-4733-92ac-3ec6d49a699a)
 
 
 cat < newfile 
@@ -104,42 +109,53 @@ hello world
 cat > newfile 
 Hello world
 hello world
+#OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 19_8249b8b6](https://github.com/user-attachments/assets/1e950096-b1de-436b-9931-cff77c1b506c)
+
  
 grep Hello newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 15_f265f735](https://github.com/user-attachments/assets/28ebbfd0-7c3e-401c-b79e-e640106ee32b)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 18_5cb3c023](https://github.com/user-attachments/assets/e5ca6ea8-04d9-4045-991a-1be7cc79336f)
+
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 12_dc14b8ea](https://github.com/user-attachments/assets/ff923bd9-b7d6-4f09-820d-20618396980d)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 12_93cd5fd0](https://github.com/user-attachments/assets/fcade02f-6209-4797-8654-e8632c0b3e85)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 11_bd3a9b76](https://github.com/user-attachments/assets/5598c70c-a93f-456f-a865-a525f5ac9c0c)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 13_9b90eb6b](https://github.com/user-attachments/assets/a03931a3-337c-4160-b951-4fd77cea0b2c)
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 14_599460d3](https://github.com/user-attachments/assets/20f83574-d45d-4e59-bc79-17c155a2b105)
 
 
 cat < newfile 
@@ -163,6 +179,7 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 09_741455b0](https://github.com/user-attachments/assets/84cb6af2-71ff-4f05-8b08-c48509df89dc)
 
 
 
@@ -173,17 +190,20 @@ egrep -w '(H|h)ello' newfile
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 10_0bdd498c](https://github.com/user-attachments/assets/005f1dea-c624-4330-9c1e-bac217b77dde)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 08_0a2b8580](https://github.com/user-attachments/assets/d44f0279-0bd0-4e36-b182-6a3af93c4d9f)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 07_c182082b](https://github.com/user-attachments/assets/fc5241ef-7f20-446b-8437-e40b09e4f056)
 
 
 
@@ -193,6 +213,7 @@ egrep '(World$)' newfile
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 06_60937eaf](https://github.com/user-attachments/assets/60f5d5f9-33a1-4599-a984-673edf6b2109)
 
 
 
@@ -203,19 +224,23 @@ egrep '[1-9]' newfile
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 05_14ac1a16](https://github.com/user-attachments/assets/e5476133-2e75-4152-8bd2-775a5be2f749)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 04_094b08b9](https://github.com/user-attachments/assets/32e35072-1d71-4272-9ad6-201fc45ff618)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 01_817c2507](https://github.com/user-attachments/assets/2276dcca-968d-4947-b677-8e12972aadd9)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![WhatsApp Image 2025-08-22 at 16 30 02_abb4ee9e](https://github.com/user-attachments/assets/85301c09-d7cd-4b4c-9333-5adab2fb268c)
 
 
 cat > file23
@@ -234,79 +259,101 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 04_451460a0](https://github.com/user-attachments/assets/6628631c-9b55-425b-987d-343801573b44)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 00_18ae89ff](https://github.com/user-attachments/assets/f8f4d0f5-0aea-4acf-ba28-507fa33cd9c2)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 30 01_3c0db1b0](https://github.com/user-attachments/assets/77bb55c8-7403-4f50-8616-9efa0b95ebe7)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 58_013a8aa1](https://github.com/user-attachments/assets/00f18754-508d-46b1-91cf-b3a39051fb60)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 59_cea8826e](https://github.com/user-attachments/assets/16811a6c-4daf-4ec5-a176-a1fbdd605119)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 54_c5405a01](https://github.com/user-attachments/assets/e97017e7-6b08-4095-bb2e-e54181208efe)
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 57_3efc2a08](https://github.com/user-attachments/assets/78616a39-7fd2-4543-8938-9c37675262e0)
+
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 56_358bea9d](https://github.com/user-attachments/assets/6a785cc6-dfd5-48ee-a349-5495da63e5d4)
 
 
 
 seq 10 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 58_bafd0b6a](https://github.com/user-attachments/assets/861e245d-954e-432b-b884-8f1f0bdaeb87)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 53_e0eca603](https://github.com/user-attachments/assets/4f293daa-c9b2-4432-baee-6d05104f549d)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 52_dfe12338](https://github.com/user-attachments/assets/4e19e849-12c0-4bcd-a3eb-360f9d796407)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 54_be07ce98](https://github.com/user-attachments/assets/329f68f4-fe62-46c3-a5f0-9361e6949f6a)
+
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 51_fb5dbd02](https://github.com/user-attachments/assets/dcb216e6-97a2-4094-8d7c-93585adc57dc)
+
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 51_03c70845](https://github.com/user-attachments/assets/a17a5ac9-4658-4666-9f26-149be47ddfd8)
+
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 50_49845ec4](https://github.com/user-attachments/assets/dbf5c4cf-4dfa-4e31-868a-30c9934b072d)
+
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+#OUTPUT:
+![WhatsApp Image 2025-08-22 at 16 29 49_6952b9a6](https://github.com/user-attachments/assets/12444d14-158f-4a7a-be4a-146de9a053cf)
 
 
 #Sorting File content
@@ -320,6 +367,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 48_d3372b4f](https://github.com/user-attachments/assets/87b8e64c-a1f5-4d0f-b04b-cfe9500c068e)
 
 
 cat > file22
@@ -333,6 +381,8 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 49_f1d94a6b](https://github.com/user-attachments/assets/3094bba1-11c3-430b-9be8-d3fc3cb999c6)
+
 
 
 
@@ -340,6 +390,8 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+ ![WhatsApp Image 2025-08-22 at 16 29 47_391166f0](https://github.com/user-attachments/assets/b1ce1547-1b29-40e0-a794-6f4e1f8da460)
+
 
 cat < urllist.txt
 ```
@@ -356,17 +408,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 46_d08d5f3d](https://github.com/user-attachments/assets/edb79654-577c-4ef7-9107-20dd390f7032)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 46_dc5daa86](https://github.com/user-attachments/assets/f4c30f7b-cc2d-424a-bcae-da882014a3d0)
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 43_eff81a46](https://github.com/user-attachments/assets/771cc725-e864-43b0-af02-fa8c50ce8a0a)
 
 
 mkdir backupdir
@@ -377,18 +432,25 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 44_c573cbad](https://github.com/user-attachments/assets/140b005f-ad7d-4826-a775-d74e714e3213)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 42_7fc7f885](https://github.com/user-attachments/assets/ff60bcb4-96ee-4a57-b6b2-cb5f69c76a3d)
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 41_7b2154a9](https://github.com/user-attachments/assets/c14114a9-f386-4fbb-aa13-6fb9b68dd1a6)
+
  
 gunzip backup.tar.gz
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 40_39cc98ba](https://github.com/user-attachments/assets/cae51602-46f5-4bb7-8ec5-cf7bfef02bb3)
+
 
  
 # Shell Script
@@ -399,6 +461,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 40_b4564739](https://github.com/user-attachments/assets/6168975e-8ac3-4988-b4dc-3c4ddc4edd0f)
 
  
 cat << stop > herecheck.txt
@@ -411,6 +474,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 39_fea07e26](https://github.com/user-attachments/assets/d1ecf0d7-b62c-4b45-ab8f-212b413bbe84)
 
 
 cat < scriptest.sh 
@@ -449,10 +513,12 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 38_6947bbd4](https://github.com/user-attachments/assets/ee6aac57-3328-4617-b4aa-dec04bdca23a)
 
  
 ls file1
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 37_d75612ec](https://github.com/user-attachments/assets/a3a9dd7a-7540-49e7-a639-ea3171aa69e3)
 
 echo $?
 ## OUTPUT 
@@ -461,11 +527,13 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![WhatsApp Image 2025-08-22 at 16 29 36_101e3225](https://github.com/user-attachments/assets/2a04609d-41c7-4ab0-898e-835c3de5f762)
+
 abcd
  
 echo $?
  ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 34_dab634b8](https://github.com/user-attachments/assets/a93421c0-20d9-4d3e-9f5c-8a7a3f9d9510)
 
 
  
@@ -497,7 +565,8 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+# OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 35_abbd3e1e](https://github.com/user-attachments/assets/f87a75ec-232c-4adc-a19e-f320a8416d9a)
 
 
 
@@ -505,6 +574,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 33_cf806432](https://github.com/user-attachments/assets/8fa3afe8-e842-4454-be88-4cf8f4f21759)
 
 
 # check file ownership
@@ -532,6 +602,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 32_0bd04e3b](https://github.com/user-attachments/assets/b28e6388-2376-48d3-b21a-7241101ad21f)
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -578,7 +650,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![WhatsApp Image 2025-08-22 at 16 29 28_370f33f1](https://github.com/user-attachments/assets/a4fb02e3-70ae-44dc-a719-e18fea64c087)
 
 
 # using numeric test comparisons
@@ -622,6 +694,9 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 30_72eef822](https://github.com/user-attachments/assets/ba525a46-3ba6-4f2e-9284-d64742fdbc03)
+
+
 
 # check if a file
 cat > ifnested.sh 
@@ -671,6 +746,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 28_370f33f1](https://github.com/user-attachments/assets/a4fb02e3-70ae-44dc-a719-e18fea64c087)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -699,6 +775,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![WhatsApp Image 2025-08-22 at 16 29 28_5689ec93](https://github.com/user-attachments/assets/cb9898e7-1878-443b-8a0f-9d2d7ac564e0)
 
 
 # testing compound comparisons
