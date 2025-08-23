@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-08-22 at 16 29 49_f1d94a6b](https://github.com/user-attachments/assets/24c68d55-979e-46b1-a52c-300fea42f4ad)# OS-Linux-commands-Shell-scripting
+
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
