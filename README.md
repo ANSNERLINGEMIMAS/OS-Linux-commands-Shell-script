@@ -59,10 +59,12 @@ cmp file1 file2
 
 comm file1 file2
  ## OUTPUT
+<img width="321" height="103" alt="image" src="https://github.com/user-attachments/assets/e496db6e-7060-42bc-a0e1-ec74f7dea44e" />
 
  
 diff file1 file2
 ## OUTPUT
+<img width="321" height="103" alt="image" src="https://github.com/user-attachments/assets/a89b9fc6-9809-40ff-8b15-60cad2eee718" />
 
 
 #Filters
@@ -200,6 +202,7 @@ egrep -w 'Hello|hello' newfile
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+<img width="321" height="103" alt="image" src="https://github.com/user-attachments/assets/0c8c2265-31ce-4ac8-9a5a-10e36db40134" />
 
 
 
@@ -226,6 +229,7 @@ egrep '(world$)' newfile
 
 egrep '(World$)' newfile 
 ## OUTPUT
+<img width="321" height="103" alt="image" src="https://github.com/user-attachments/assets/02dbbb99-4033-4c74-b0d3-229bef2cf25a" />
 
 
 egrep '((W|w)orld$)' newfile 
@@ -237,6 +241,7 @@ egrep '((W|w)orld$)' newfile
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+<img width="321" height="103" alt="image" src="https://github.com/user-attachments/assets/b190fcfc-703f-4b89-bf2a-58fa95251552" />
 
 
 
@@ -852,6 +857,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="321" height="103" alt="image" src="https://github.com/user-attachments/assets/d91d2044-1d40-44c3-9cc9-b6652497edaf" />
+
 
 
 # using the case command
