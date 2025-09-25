@@ -1017,6 +1017,9 @@ Khammam
 ## OUTPUT
 
 
+<img width="562" height="185" alt="Screenshot 2025-09-25 115802" src="https://github.com/user-attachments/assets/34d3198a-2029-49a4-bced-6be986627aaf" />
+
+
 cat forctype.sh 
 ```bash
 #!/bin/bash
@@ -1167,9 +1170,17 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+ 
+
+ <img width="775" height="38" alt="Screenshot 2025-09-25 115841" src="https://github.com/user-attachments/assets/ba124b86-3f2c-4f5c-950f-ea3708f2649d" />
+
 
  
  ./funcex.sh 1 2
+ 
+
+ <img width="775" height="38" alt="Screenshot 2025-09-25 115901" src="https://github.com/user-attachments/assets/08bce23e-976e-40b5-be51-75193933584e" />
+
 
  
 cat argshift.sh
