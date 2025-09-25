@@ -229,6 +229,7 @@ egrep '(world$)' newfile
 
 egrep '(World$)' newfile 
 ## OUTPUT
+
 <img width="321" height="103" alt="image" src="https://github.com/user-attachments/assets/02dbbb99-4033-4c74-b0d3-229bef2cf25a" />
 
 
@@ -572,6 +573,7 @@ chmod 777 scriptest.sh
 
  
 ls file1
+
 ## OUTPUT
 
 ![WhatsApp Image 2025-08-22 at 16 29 37_d75612ec](https://github.com/user-attachments/assets/a3a9dd7a-7540-49e7-a639-ea3171aa69e3)
@@ -580,7 +582,10 @@ echo $?
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
- 
+
+ <img width="780" height="41" alt="Screenshot 2025-09-25 120619" src="https://github.com/user-attachments/assets/3db96b94-129f-4e5c-a3a8-217153266d7e" />
+
+
 echo $?
 ## OUTPUT 
 
